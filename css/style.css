@@ -56,7 +56,12 @@ input[type="submit"],input[type="reset"],.w3ls_footer_grid_leftl,.w3ls_footer_gr
 	-moz-transform: translateX(-20px);
 	transform: translateX(-20px);
 }
-
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    width: 25%;
+}
 .cl-effect-1 a:hover::before,
 .cl-effect-1 a:hover::after,
 .cl-effect-1 a:focus::before,
